@@ -2,4 +2,4 @@ language: cpp
 services:
         -docker
 script:
-        -sudo docker build -t logger .
+        -docker build -t logger .
